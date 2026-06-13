@@ -1,0 +1,388 @@
+
+
+/* ── Tablet: 768px – 1024px ── */
+@media (max-width: 1024px) {
+
+  /* Nav */
+  nav {
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav ul {
+    gap: 16px;
+  }
+
+  /* About */
+  #about {
+    height: auto;
+    padding: 80px 30px 40px;
+  }
+
+  .img-div img {
+    height: 220px;
+    width: 220px;
+  }
+
+  .projectsdone {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  /* Services */
+  #services {
+    height: auto;
+    padding: 60px 30px;
+    margin: 60px 0;
+  }
+
+  .services-description {
+    width: 90%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact */
+  #contact {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .form-image {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .form {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  form {
+    padding: 20px 10px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  input {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .row textarea {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .textarea {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btns {
+    margin-left: 0;
+  }
+
+  .detail {
+    width: 90%;
+  }
+
+  /* Footer */
+  footer {
+    height: auto;
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .footer-1 {
+    width: 100%;
+  }
+
+  .footer-1 p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  .footer-3 {
+    width: 100%;
+  }
+
+  .footer-3-text {
+    text-align: center;
+  }
+}
+
+/* ── Mobile: up to 767px ── */
+@media (max-width: 767px) {
+
+  /* Nav — stack vertically */
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 8px;
+  }
+
+  .logo h3 {
+    font-size: 18px;
+  }
+
+  nav img {
+    height: 44px;
+  }
+
+  .links ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  .auth {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 6px;
+  }
+
+  .btn {
+    width: 74px;
+    font-size: 13px;
+  }
+
+  /* About */
+  #about {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 100px 20px 40px;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .img-div {
+    width: 100%;
+    height: auto;
+  }
+
+  .img-div img {
+    height: 180px;
+    width: 180px;
+  }
+
+  .description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description h6 {
+    width: auto;
+    padding: 4px 14px;
+  }
+
+  h1 {
+    font-size: clamp(22px, 6vw, 32px);
+    text-align: center;
+  }
+
+  pre {
+    font-size: 13px;
+    white-space: pre-wrap;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .projects,
+  .cv {
+    width: 200px;
+  }
+
+  .projectsdone {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* Services */
+  #services {
+    height: auto;
+    padding: 50px 16px;
+    margin: 40px 0;
+  }
+
+  .services-description {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  /* Contact */
+  #contact {
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .form-image {
+    flex-direction: column;
+    padding: 16px;
+    gap: 30px;
+  }
+
+  .form {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  form {
+    padding: 16px 10px;
+    border-radius: 10px;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .row textarea {
+    width: 100%;
+    max-width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .textarea {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btns {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #submit {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .detail {
+    width: 100%;
+  }
+
+  .img {
+    height: 220px;
+    width: 220px;
+  }
+
+  .icons {
+    padding: 0 10px;
+  }
+
+  /* Footer */
+  footer {
+    height: auto;
+    flex-direction: column;
+    padding: 24px 16px;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-1 {
+    width: 100%;
+  }
+
+  .footer-1 p {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .socials {
+    width: 100%;
+    gap: 14px;
+  }
+
+  .footer-icon {
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+  }
+
+  .footer-3 {
+    width: 100%;
+  }
+
+  .footer-3-text {
+    text-align: center;
+  }
+
+  .copyright {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ── Small phones: up to 400px ── */
+@media (max-width: 400px) {
+  .projectsdone {
+    gap: 14px;
+  }
+
+  .projectsdone h5 {
+    font-size: 20px;
+  }
+
+  .grid {
+    padding: 0 8px;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+}
